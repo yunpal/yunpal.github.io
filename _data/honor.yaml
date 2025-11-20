@@ -1,10 +1,10 @@
 honor-award:
-  - place: "1st Award in the 2023 K-Data Science Hackathon"
-    time: "Nov. 2023"
-    title: "Ministry of Science and ICT"
-    category: "award"
+  # - place: "1st Award in the 2023 K-Data Science Hackathon"
+  #   time: "Nov. 2023"
+  #   title: "Ministry of Science and ICT"
+  #   category: "award"
 
-  - place: "Dean’s List"
-    time: "2nd 2023" 
-    title: "Korea University"
-    category: "honor"
+  # - place: "Dean’s List"
+  #   time: "2nd 2023" 
+  #   title: "Korea University"
+  #   category: "honor"
