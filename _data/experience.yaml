@@ -1,0 +1,15 @@
+experiences:
+  - place: "Undergraduate Researcher"
+    time: "Mar. 2024 - Aug. 2024"
+    title: '<a href="https://alinlab.kaist.ac.kr/index.html">Algorithmic Intelligence Laboratory (ALIN-Lab)</a> (advised by <a href="https://alinlab.kaist.ac.kr/shin.html">Prof. Jinwoo Shin</a>)'
+    category: "undergraduate researcher"
+
+  - place: "Undergraduate Researcher"
+    time: "Nov. 2023 - Mar. 2024"
+    title: '<a href="https://utl.korea.ac.kr/">Universal Transfer Learning (UTL) Lab</a> (advised by <a href="https://cs-people.bu.edu/donhk/">Prof. Donghyun Kim</a>)'
+    category: "undergraduate researcher"
+
+  - place: "Research Intern"
+    time: "Mar. 2023 - Aug. 2023"
+    title: "NCSOFT Speech AI Lab"
+    category: "research intern"

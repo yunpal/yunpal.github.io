@@ -1,0 +1,146 @@
+---
+layout: default
+---
+<!-- ========== About ========== -->
+<div class="docs-section" id="about">
+  <h4>About</h4>
+    <p>
+    I am an M.S./Ph.D. student at <a href="https://alinlab.kaist.ac.kr/index.html">Algorithmic Intelligence Laboratory (ALIN-LAB)</a>, advised by Prof. <a href="https://alinlab.kaist.ac.kr/shin.html">Jinwoo Shin</a>. 
+    Previously, I received my B.S. in Industrial and Management Engineering at <a href="https://www.korea.ac.kr/sites/ko/index.do">Korea University</a> in 2024. 
+    My recent research interests lie in robotics foundation models, especially for Vision-Language-Action (VLA) models, and I previously worked on developing robust classifiers against adversarial attacks.
+    </p>
+</div>
+
+<!-- ========== PUBLICATIONS ========== -->
+<div class="docs-section" id="publications">
+  <h4>Publications</h4>
+  <p class="publication-note">
+    (*: Equal contribution, C: Conferences, J: Journal, W: Workshop, P: Preprint).
+  </p>
+
+  <div class="tab-content">
+    <div class="tab-pane active">
+      {% for paper in site.data.publications.papers %}
+        <div class="paper">
+          <div class="row">
+            {% if paper.thumbnail %}
+              <div class="four columns">
+                <img class="u-max-full-width" style="border-radius: 1rem;" src="{{ paper.thumbnail | prepend: site.baseurl }}" alt="{{ paper.title }} thumbnail">
+              </div>
+            {% endif %}
+
+            <div class="{% if paper.thumbnail %}eight columns{% else %}twelve columns{% endif %}">
+              <p class="title"><b>{{ paper.title }}</b></p>
+              <p>{{ paper.authors }}</p>
+              <p><i>{{ paper.venue }}</i></p>
+              {% if paper.venue2 %}
+                <p><i>{{ paper.venue2 }}</i></p>
+              {% endif %}
+              <div class="paper-buttons">
+                {% if paper.paper_pdf %}
+                  <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+                {% endif %}
+
+                {% if paper.arxiv %}
+                  <a class="button" href="{{ paper.arxiv | prepend: site.baseurl }}" target="_blank">Arxiv</a>
+                {% endif %}
+
+                {% if paper.slides %}
+                  <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+                {% endif %}
+
+                {% if paper.website %}
+                  <a class="button" href="{{ paper.website | prepend: site.baseurl }}" target="_blank">Website</a>
+                {% endif %}
+
+                {% if paper.poster %}
+                  <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+                {% endif %}
+
+                {% if paper.video %}
+                  <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+                {% endif %}
+
+                {% if paper.code %}
+                  <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+                {% endif %}
+
+                {% if paper.data %}
+                  <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+                {% endif %}
+              </div>
+            </div>
+          </div> 
+        </div> 
+      {% endfor %}
+    </div> 
+  </div> 
+</div> 
+
+<!-- ========== Education ========== -->
+<div class="docs-section" id="education">
+  <h4>Education</h4>
+  {% for edu in site.data.education.educations %}
+    <div class="paper">
+      <p class="title">
+        <b>{{ edu.place }}</b>
+        <b style="float:right;">{{ edu.time }}</b>
+      </p>
+      <p>{{ edu.title }}</p>
+    </div>
+  {% endfor %}
+</div>
+
+<!-- ========== Experience ========== -->
+<div class="docs-section" id="experience">
+  <h4>Experience</h4>
+  {% for exp in site.data.experience.experiences %}
+    <div class="paper">
+      <p class="title">
+        <b>{{ exp.place }}</b>
+        <b style="float:right;">{{ exp.time }}</b>
+      </p>
+      <p>{{ exp.title | safe }}</p>
+    </div>
+  {% endfor %}
+</div>
+
+<!-- ========== Academic Services ========== -->
+<!-- <div class="docs-section" id="services">
+  <h4>Academic Services</h4>
+        <div class="paper">
+          <p class="title"><b>Conference Reviewer</b>, IJCAI 2023; NeurIPS 2024; ICLR 2025; AISTATS 2025 </p>
+        </div>
+        <div class="paper">
+          <p class="title"><b>Journal Reviewer</b>, IJCV </p>
+        </div>
+</div> -->
+
+
+<!-- ========== Honors & Awards ========== -->
+<div class="docs-section" id="honors">
+  <h4>Honors & Awards</h4>
+  {% for award in site.data.honor.honor-award %}
+    <div class="paper">
+      <p class="title">
+        <b>{{ award.place }}</b>, {{ award.title }} <b style="float:right;">{{ award.time }}</b>
+      </p>
+    </div>
+  {% endfor %}
+</div>
+
+<!-- ========== Invited Talks ========== -->
+<!-- <div class="docs-section" id="talks">
+  <h4>Invited Talks</h4>
+        <div class="paper">
+          <p class="title"><b>Modality-Agnostic Self-Supervised Learning with Meta-Learned Masked Auto-Encoder</b></p>
+          <p>Samsung Electronics Device Solution (DS)<b style="float:right;">Oct. 2024</b></p>
+          <p>Samsung AI Forum (SAIF) 2023<b style="float:right;">Nov. 2023</b></p>
+          <p>Samsung Advanced Institue of Technology (SAIT)<b style="float:right;">Jun. 2023</b></p>
+        </div>
+        <div class="paper">
+          <p class="title"><b>Unsupervised Meta-learning via Few-shot Pseudo-supervised Contrastive Learning</b></p>
+          <p>International Conference on Learning Representations (ICLR)<b style="float:right;">May. 2023</b></p>
+        </div>
+</div> -->
+

@@ -1,0 +1,18 @@
+papers:
+  - title: "[J1] Confidence-aware Denoised Fine-tuning of Off-the-shelf Models for Certified Robustness"
+    authors: "<b><u>Suhyeok Jang</u>*</b>, <a href='https://seojin-kim.github.io/'>Seojin Kim*</a>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>, <a href='https://jh-jeong.github.io/'>Jongheon Jeong</a>"
+    venue: "Transactions on Machine Learning Research (TMLR), 2024"
+    paper_pdf: "https://openreview.net/pdf?id=99GovbuMcP"
+    arxiv: "https://arxiv.org/abs/2411.08933"
+    code: "https://github.com/suhyeok-jang/FT-CADIS/tree/main"
+    thumbnail : "/assets/publications/ft-cadis_tmlr2024/ft-cadis_thumbnail.jpg"
+
+  - title: "[P1] Verifier-free Test-Time Sampling for Vision Language Action Models"
+    authors: "<b><u>Suhyeok Jang</u></b>, <a href='https://kingdy2002.github.io/'>Dongyoung Kim</a>, Changyeon Kim, Youngsuk Kim, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>"
+    venue: "arXiv Preprint, 2025"
+    # paper_pdf: "https://openreview.net/pdf?id=99GovbuMcP"
+    arxiv: "https://arxiv.org/abs/2510.05681"
+    # code: "https://github.com/suhyeok-jang/FT-CADIS/tree/main"
+    thumbnail : "/assets/publications/mg-select_arxiv2025/MG-Select_overview.jpg"
+
+
