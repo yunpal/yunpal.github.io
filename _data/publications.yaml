@@ -17,6 +17,14 @@
 
 
 papers:
+  - title: "[P1] Vision-driven Preference Synthesis for Mitigating Hallucinations in VLMs"
+    authors: "<b><u>Yunhun Nam</u></b>, Jongheon Jeong"
+    #venue: "AAAI, 2026 <span style='color:red; font-weight:bold;'>(Oral Presentation)</span>"
+    #paper_pdf: ""
+    arxiv: "https://arxiv.org/abs/2606.28401"
+    code: "https://github.com/yunpal/ViPSy"
+    thumbnail: "/assets/publications/ViPSy.jpg"
+
   - title: "[C2] Learning from the Undesirable: Robust Adaptation of Language Models without Forgetting"
     authors: "<b><u>Yunhun Nam</u></b>, Jaehyung Kim, Jongheon Jeong"
     venue: "AAAI, 2026 <span style='color:red; font-weight:bold;'>(Oral Presentation)</span>"
