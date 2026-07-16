@@ -17,6 +17,12 @@
 
 
 papers:
+  - title: "[P2] Robust Finetuning from Generative Representations via Nuisance-extended Information Bottleneck"
+    authors: "Minsun Lee, Gwangyeol Yu, <b><u>Yunhun Nam</u></b>, Jinwoo Shin, Jongheon Jeong"
+    #venue: "AAAI, 2026 <span style='color:red; font-weight:bold;'>(Oral Presentation)</span>"
+    paper_pdf: "/assets/paper/NVIB.pdf"
+    thumbnail: "/assets/publications/NVIB.png"
+
   - title: "[P1] Vision-driven Preference Synthesis for Mitigating Hallucinations in VLMs"
     authors: "<b><u>Yunhun Nam</u></b>, Jongheon Jeong"
     #venue: "AAAI, 2026 <span style='color:red; font-weight:bold;'>(Oral Presentation)</span>"
