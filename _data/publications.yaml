@@ -31,6 +31,14 @@ papers:
     code: "https://github.com/yunpal/ViPSy"
     thumbnail: "/assets/publications/ViPSy.jpg"
 
+  - title: "[C3] CPR for LLMs: Critical-Point Routing against Catastrophic Forgetting in Domain Adaptation"
+    authors: "Kwangmin Ki, <b><u>Yunhun Nam</u></b>, Jongheon Jeong, Jaehyung Kim"
+    venue: "EMNLP, 2026"
+    # paper_pdf: "https://openreview.net/pdf/84f155aea408c2e435b0a8e4e8483baefcedb6e3.pdf"
+    # arxiv: "https://arxiv.org/abs/2511.00143"
+    # code: "https://github.com/jsu-kim/BlurGuard"
+    thumbnail: "/assets/publications/Figure_low.pdf"
+
   - title: "[C2] Learning from the Undesirable: Robust Adaptation of Language Models without Forgetting"
     authors: "<b><u>Yunhun Nam</u></b>, Jaehyung Kim, Jongheon Jeong"
     venue: "AAAI, 2026 <span style='color:red; font-weight:bold;'>(Oral Presentation)</span>"
