@@ -37,7 +37,7 @@ papers:
     # paper_pdf: "https://openreview.net/pdf/84f155aea408c2e435b0a8e4e8483baefcedb6e3.pdf"
     # arxiv: "https://arxiv.org/abs/2511.00143"
     # code: "https://github.com/jsu-kim/BlurGuard"
-    thumbnail: "/assets/publications/Figure_low.pdf"
+    thumbnail: "/assets/publications/CPR.png"
 
   - title: "[C2] Learning from the Undesirable: Robust Adaptation of Language Models without Forgetting"
     authors: "<b><u>Yunhun Nam</u></b>, Jaehyung Kim, Jongheon Jeong"
